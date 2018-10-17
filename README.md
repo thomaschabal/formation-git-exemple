@@ -1,6 +1,12 @@
-# formation-git-exemple
+formation-git-exemple
+=====================
+
 Un dépôt exemplaire
+
+[Cliquez ici pour accéder au sujet du TP](TP.md)
 
 Les slides : https://kiclubinfo.github.io/formation-git/
 
-Le questionnaire de satisfaction : https://surveys.enpc.org/index.php/417926?lang=fr
+L'aide-mémoire au format PDF : https://kiclubinfo.github.io/formation-git/ki-aide-memoire-git.pdf
+
+Le questionnaire de satisfaction : https://tiny.cc/kigit
