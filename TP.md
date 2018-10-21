@@ -31,7 +31,7 @@ git config --global push.default simple
 # Retourner dans son répertoire utilisateur
 cd ~
 # Cloner le dépot d'exemple
-https://github.com/KIClubinfo/formation-git-exemple.git
+git clone https://github.com/KIClubinfo/formation-git-exemple.git
 # Aller dans le dossier
 cd formation-git-exemple
 ```
