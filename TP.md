@@ -1,11 +1,29 @@
 TP Formation Git
 ================
 
-### 0. Configurer Git
+## Installation
+
+### Sur Windows
+Allez sur https://git-scm.com/download/win
+
+### Sur OS X:
+- Si vous avez Xcode, git est déjà installé
+- Si vous avez Homebrew, `brew install git`
+- Sinon, téléchargez Git ici : https://git-scm.com/download/mac
+
+### Sur Linux (Ubuntu/Debian)
 ``` bash
-git config --global push.default simple
+$ sudo apt-get install git
+```
+
+## Sujet
+
+### 0. Configurer Git
+
+``` bash
 git config --global user.email moi@eleves.enpc.fr
 git config --global user.name "Prénom Nom"
+git config --global push.default simple
 ```
 
 ### 1. Cloner le dépôt
