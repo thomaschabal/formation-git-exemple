@@ -86,3 +86,30 @@ git commit
 ```
 
 En cas de panique, on peut toujours annuler le merge en faisant `git merge --abort` !
+
+### 4. Jongler avec les branches
+
+```bash
+# On crée une nouvelle branche et on va dessus
+git checkout -b ma-premiere-branche
+# On crée un fichier
+echo "ma-premiere-branche" > branche.txt
+# On l'ajoute et on commit
+git add branche.txt
+git commit -m "Création de ma première branche"
+# On la pousse sur le serveur ?
+git push
+# On la pousse sur le serveur !
+# C'est un peu pénible mais c'est nécessaire à chaque fois qu'on veut pusher une branche nouvellement créée
+git push --set-upstream origin ma-premiere-branche
+```
+
+Ma nouvelle branch est visible ici : https://github.com/MonNomDUtilisateurGithub/formation-git-exemple/tree/ma-premiere-branche/
+
+``` bash
+# On peut retourner sur master
+git checkout master
+# Le fichier branche.txt a disparu
+git checkout ma-premiere-branche
+# Le fichier branche.txt est de retour !
+```
