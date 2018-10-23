@@ -30,7 +30,7 @@ git config --global user.name "Prénom Nom"
 git config --global push.default simple
 ```
 
-Forker le répo en cliquant ![ici](https://github.com/KIClubinfo/formation-git-exemple/fork)
+Forker le répo en cliquant [ici](https://github.com/KIClubinfo/formation-git-exemple/fork)
 
 ### 1. Cloner le dépôt
 ``` bash
