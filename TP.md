@@ -30,16 +30,14 @@ git config --global user.name "Prénom Nom"
 git config --global push.default simple
 ```
 
-Forker le répo en cliquant ici
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/KIClubinfo/formation-git-exemple/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork KIClubinfo/formation-git-exemple on GitHub">Fork</a>
+Forker le répo en cliquant ![ici](https://github.com/KIClubinfo/formation-git-exemple/fork)
 
 ### 1. Cloner le dépôt
 ``` bash
 # Retourner dans son répertoire utilisateur
 cd ~
 # Cloner le dépot d'exemple
-git clone https://github.com/KIClubinfo/formation-git-exemple.git
+git clone https://github.com/MonNomDUtilisateurGithub/formation-git-exemple.git
 # Aller dans le dossier
 cd formation-git-exemple
 ```
@@ -47,11 +45,11 @@ cd formation-git-exemple
 ### 2. Ajouter un fichier
 ``` bash
 # Créer un nouveau fichier, par exemple
-echo "Earth's Moon" >> locations.txt
+echo "Mon animal préféré est le caribou" >> secret.txt
 # Git est conscient qu'un nouveau fichier a été créé
 git status
 # Dire à Git de suivre le nouveau fichier locations.txt
-git add locations.txt
+git add secret.txt
 ```
 
 ![Ajouter un fichier](https://www.atlassian.com/dam/jcr:dbf0c59f-848d-4814-bfd5-6b190a092963/03.svg)
@@ -72,5 +70,3 @@ Jusqu'à présent, tout ce que vous avez fait est sur votre système local et in
 # Pousser le nouveau commit
 git push
 ```
-
-Vous n'avez pas la permission d'écrire sur le dépôt du TP, vous aurez donc un message d'erreur.
