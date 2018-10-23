@@ -17,7 +17,7 @@ Allez sur https://git-scm.com/download/win
 
 ### Sur Linux (Ubuntu/Debian)
 ``` bash
-$ sudo apt-get install git
+sudo apt-get install git
 ```
 
 ## Sujet
@@ -70,3 +70,19 @@ Jusqu'à présent, tout ce que vous avez fait est sur votre système local et in
 # Pousser le nouveau commit
 git push
 ```
+
+### 3. Gérer un conflit
+
+```bash
+# On fusionne une branche dans master
+git merge merge-me-please
+# On fait une pause et on regarde ce qui vient de se passer
+git status
+cat merge.txt
+# On modifie le fichier à sa guise puis on l'ajoute
+git add merge.txt
+# On finit la résolution de conflit en committant
+git commit
+```
+
+En cas de panique, on peut toujours annuler le merge en faisant `git merge --abort` !
