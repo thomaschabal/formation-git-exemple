@@ -1,6 +1,10 @@
 TP Formation Git
 ================
 
+## Github
+- Créer un compte https://github.com/join
+- Obtenir un compte Github Developer **gratuit au lieu de 7€ par mois** : https://education.github.com/pack
+
 ## Installation
 
 ### Sur Windows
@@ -25,6 +29,10 @@ git config --global user.email moi@eleves.enpc.fr
 git config --global user.name "Prénom Nom"
 git config --global push.default simple
 ```
+
+Forker le répo en cliquant ici
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/KIClubinfo/formation-git-exemple/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork KIClubinfo/formation-git-exemple on GitHub">Fork</a>
 
 ### 1. Cloner le dépôt
 ``` bash
